@@ -1,0 +1,59 @@
+body {
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+/* MENU */
+
+#menu a {
+    font-size: 18px;
+    color: #3f3f3f;
+}
+
+#menu button {
+    font-size: 18px;
+}
+
+/* SLIDER */
+
+.carousel-inner {
+    max-height: 39rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIS pantalla chica */
+
+@media (max-width: 768px) {
+    #intro {
+        width: 90% !important;
+    }
+
+    .servicio-fila {
+        width: 100% !important;
+        text-align: center;
+    }
+}
+
+
+/* MEDIA QUERIS pantalla muy chica */
+
+@media (max-width: 576px) {
+    .icono-wrap {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
