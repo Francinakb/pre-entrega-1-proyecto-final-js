@@ -88,8 +88,8 @@ const nuevoIngreso = new producto("Capsula fish Oil", "39,9%", "60u", 7349)
 
 console.log(nuevoIngreso)
 
-// Aplicando DOM
-// tambien aplico queryselector para seleccionar nodo y con innerHTML modificar un parrafo
+// Aplicando DOM 
+/* Tambien aplico queryselector para seleccionar nodo y con innerHTML modificar un parrafo. El texto predeterminado que yo elegi es el que quiero, solo hice esto como para demostrar que se usar innerhtml aunque en este caso no es funcional, ni es la idea modificar el texto*/
 
 // console.dir(document.querySelector("#equipo").innerHTML)
 
