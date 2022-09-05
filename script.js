@@ -8,6 +8,14 @@ if (nuevoUsuario == "") {
     alert("Su nuevo nombre de usuario es " + nuevoUsuario)
 }
 
+// Aplicando DOM 
+// modifico el nombre de bienvenida del encabezado segun el nombre de usuario ingresado
+
+let bienvenidaUsuario = document.querySelector("#encabezado")
+bienvenidaUsuario.innerText = `Bienvenidx ${nuevoUsuario}`
+
+// let nuevoUsuario = document.querySelector("nuevoUsuario")
+// nuevoUsuario.innerText = "Bienvenido ${}"
 
 // utilizo foreach() para iterar sobre los elementos de mi arreglo y ver la lista de productos
 
@@ -79,3 +87,15 @@ class producto {
 const nuevoIngreso = new producto("Capsula fish Oil", "39,9%", "60u", 7349)
 
 console.log(nuevoIngreso)
+
+// Aplicando DOM
+// tambien aplico queryselector para seleccionar nodo y con innerHTML modificar un parrafo
+
+// console.dir(document.querySelector("#equipo").innerHTML)
+
+let informacionCbd = document.querySelector("#equipo")
+informacionCbd.innerHTML = `<h1 class="mb-5 fs-2">Equipo pequeño con <span class="text-success">resultados grandes.</span></h1>
+<p class="fs-6">Si estas interesadx en ser parte de nuestro equipo escribinos a equipocbd@gmail.com.</p>`
+
+
+
