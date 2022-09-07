@@ -1,18 +1,18 @@
 // en la pagina tengo una opcion (a desarrollar) de enviarnos un mail, podria loggear un usuario con un condicional 
 
-let nuevoUsuario = prompt("Ingrese nombre de usuario")
+// let nuevoUsuario = prompt("Ingrese nombre de usuario")
 
-if (nuevoUsuario == "") {
-    alert("No ingresaste un nombre de usuario")
-} else {
-    alert("Su nuevo nombre de usuario es " + nuevoUsuario)
-}
+// if (nuevoUsuario == "") {
+//     alert("No ingresaste un nombre de usuario")
+// } else {
+//     alert("Su nuevo nombre de usuario es " + nuevoUsuario)
+// }
 
 // Aplicando DOM 
 // modifico el nombre de bienvenida del encabezado segun el nombre de usuario ingresado
 
-let bienvenidaUsuario = document.querySelector("#encabezado")
-bienvenidaUsuario.innerText = `Bienvenidx ${nuevoUsuario}`
+// let bienvenidaUsuario = document.querySelector("#encabezado")
+// bienvenidaUsuario.innerText = `Bienvenidx ${nuevoUsuario}`
 
 // let nuevoUsuario = document.querySelector("nuevoUsuario")
 // nuevoUsuario.innerText = "Bienvenido ${}"
@@ -93,9 +93,102 @@ console.log(nuevoIngreso)
 
 // console.dir(document.querySelector("#equipo").innerHTML)
 
-let informacionCbd = document.querySelector("#equipo")
-informacionCbd.innerHTML = `<h1 class="mb-5 fs-2">Equipo pequeño con <span class="text-success">resultados grandes.</span></h1>
-<p class="fs-6">Si estas interesadx en ser parte de nuestro equipo escribinos a equipocbd@gmail.com.</p>`
+// let informacionCbd = document.querySelector("#equipo")
+// informacionCbd.innerHTML = `<h1 class="mb-5 fs-2">Equipo pequeño con <span class="text-success">resultados grandes.</span></h1>
+// <p class="fs-6">Si estas interesadx en ser parte de nuestro equipo escribinos a equipocbd@gmail.com.</p>`
+
+
+// Utilizo eventos para poder poner botones de compra, seleccionando 1 o mas productos, y pudiendo sacarlo, viendo cuantos seleccione.
+
+let comprar = 0
+let h4Comprar = document.querySelector("#comprar")
+h24Comprar.innerHTML = comprar
+
+function sumarUno(){
+    comprar++
+    let h4Comprar = document.querySelector("#comprar")
+h4Comprar.innerHTML = comprar
+}
+function restarUno(){
+    comprar--
+    let h4Comprar = document.querySelector("#comprar")
+h4Comprar.innerHTML = comprar
+}
+
+//funciona el primero, el resto no, pruebo con otros nombres en las variables pero no funciona
+
+let comprarDos = 0
+let h4ComprarDos = document.querySelector("#comprarDos")
+h24ComprarDos.innerHTML = comprarDos
+
+function sumarDos(){
+    comprarDos++
+    let h4ComprarDos = document.querySelector("#comprarDos")
+h4ComprarDos.innerHTML = comprarDos
+}
+function restarDos(){
+    comprarDos--
+    let h4ComprarDos = document.querySelector("#comprarDos")
+h4ComprarDos.innerHTML = comprarDos
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
