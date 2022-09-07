@@ -1,18 +1,18 @@
 // en la pagina tengo una opcion (a desarrollar) de enviarnos un mail, podria loggear un usuario con un condicional 
 
-// let nuevoUsuario = prompt("Ingrese nombre de usuario")
+let nuevoUsuario = prompt("Ingrese nombre de usuario")
 
-// if (nuevoUsuario == "") {
-//     alert("No ingresaste un nombre de usuario")
-// } else {
-//     alert("Su nuevo nombre de usuario es " + nuevoUsuario)
-// }
+if (nuevoUsuario == "") {
+    alert("No ingresaste un nombre de usuario")
+} else {
+    alert("Su nuevo nombre de usuario es " + nuevoUsuario)
+}
 
 // Aplicando DOM 
 // modifico el nombre de bienvenida del encabezado segun el nombre de usuario ingresado
 
-// let bienvenidaUsuario = document.querySelector("#encabezado")
-// bienvenidaUsuario.innerText = `Bienvenidx ${nuevoUsuario}`
+let bienvenidaUsuario = document.querySelector("#encabezado")
+bienvenidaUsuario.innerText = `Bienvenidx ${nuevoUsuario}`
 
 // let nuevoUsuario = document.querySelector("nuevoUsuario")
 // nuevoUsuario.innerText = "Bienvenido ${}"
@@ -102,35 +102,32 @@ console.log(nuevoIngreso)
 
 let comprar = 0
 let h4Comprar = document.querySelector("#comprar")
-h24Comprar.innerHTML = comprar
+h4Comprar.innerHTML = comprar
 
 function sumarUno(){
     comprar++
     let h4Comprar = document.querySelector("#comprar")
 h4Comprar.innerHTML = comprar
+console.log(comprar)
 }
 function restarUno(){
     comprar--
     let h4Comprar = document.querySelector("#comprar")
 h4Comprar.innerHTML = comprar
+console.log(comprar)
 }
 
-//funciona el primero, el resto no, pruebo con otros nombres en las variables pero no funciona
 
-let comprarDos = 0
-let h4ComprarDos = document.querySelector("#comprarDos")
-h24ComprarDos.innerHTML = comprarDos
 
-function sumarDos(){
-    comprarDos++
-    let h4ComprarDos = document.querySelector("#comprarDos")
-h4ComprarDos.innerHTML = comprarDos
-}
-function restarDos(){
-    comprarDos--
-    let h4ComprarDos = document.querySelector("#comprarDos")
-h4ComprarDos.innerHTML = comprarDos
-}
+
+
+
+
+
+
+
+
+
 
 
 
