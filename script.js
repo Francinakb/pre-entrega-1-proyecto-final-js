@@ -101,8 +101,21 @@ console.log(nuevoIngreso)
 // Utilizo eventos para poder poner botones de compra, seleccionando 1 o mas productos, y pudiendo sacarlo, viendo cuantos seleccione.
 
 let comprar = 0
+let comprar2 = 0
+let comprar3 = 0
+let comprar4 = 0
+
 let h4Comprar = document.querySelector("#comprar")
 h4Comprar.innerHTML = comprar
+
+let h4Comprar2 = document.querySelector("#comprar2")
+h4Comprar2.innerHTML = comprar2
+
+let h4Comprar3 = document.querySelector("#comprar3")
+h4Comprar3.innerHTML = comprar3
+
+let h4Comprar4 = document.querySelector("#comprar4")
+h4Comprar4.innerHTML = comprar4
 
 function sumarUno(){
     comprar++
@@ -110,11 +123,54 @@ function sumarUno(){
 h4Comprar.innerHTML = comprar
 console.log(comprar)
 }
+
+function sumarDos(){
+    comprar2++
+    let h4Comprar2 = document.querySelector("#comprar2")
+h4Comprar2.innerHTML = comprar2
+console.log(comprar2)
+}
+
+function sumarTres(){
+    comprar3++
+    let h4Comprar3 = document.querySelector("#comprar3")
+h4Comprar3.innerHTML = comprar3
+console.log(comprar3)
+}
+
+function sumarCuatro(){
+    comprar4++
+    let h4Comprar4 = document.querySelector("#comprar4")
+h4Comprar4.innerHTML = comprar4
+console.log(comprar4)
+}
+
 function restarUno(){
     comprar--
     let h4Comprar = document.querySelector("#comprar")
 h4Comprar.innerHTML = comprar
 console.log(comprar)
+}
+
+function restarDos(){
+    comprar2--
+    let h4Comprar2 = document.querySelector("#comprar2")
+h4Comprar2.innerHTML = comprar2
+console.log(comprar2)
+}
+
+function restarTres(){
+    comprar3--
+    let h4Comprar3 = document.querySelector("#comprar3")
+h4Comprar3.innerHTML = comprar3
+console.log(comprar3)
+}
+
+function restarCuatro(){
+    comprar4--
+    let h4Comprar4 = document.querySelector("#comprar4")
+h4Comprar4.innerHTML = comprar4
+console.log(comprar4)
 }
 
 
